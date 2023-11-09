@@ -1,0 +1,35 @@
+.header-content
+   display: flex
+   justify-content: space-between
+   align-items: center
+   padding-top: 44px
+   &__menu
+      display: flex
+      justify-content: space-between
+      align-items: center
+      color: $dark-purple
+      font-size: 18px
+      font-style: normal
+      font-weight: 400
+      line-height: normal
+      &-ul
+         list-style: none
+      &-link
+         text-decoration: none
+         &__activ
+            background: linear-gradient(90deg, #8A35F2 0%, #BC4BDF 100%)
+            background-clip: text
+            -webkit-background-clip: text
+            -webkit-text-fill-color: transparent
+      &-login
+         margin-left: 25px
+         margin-right: 25px
+         width: 50px
+         height: 50px
+      &-button
+         padding: 14px 30px
+         border-radius: 28px
+         border: none
+         background: $gradient-purple
+         color: $light
+         cursor: pointer

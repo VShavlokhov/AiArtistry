@@ -1,0 +1,151 @@
+.transform-content
+   margin-top: 180px
+   display: flex
+   justify-content: space-between
+   margin-bottom:  180px
+   &__left
+      display: block
+      width: 50%
+      &-subtitle
+         display: block
+         font-family: FONTSPRING DEMO - Visby CF Bold
+         font-size: 22px
+         font-style: normal
+         font-weight: 700
+         line-height: normal
+         background: var(--Linear, linear-gradient(90deg, #8A35F2 0%, #BC4BDF 100%))
+         background-clip: text
+         -webkit-background-clip: text
+         -webkit-text-fill-color: transparent
+         margin-bottom: 15px
+      &-title
+         display: block
+         color: #170033
+         font-family: "fontspring-demo-integral-cf-bold", sans-serif
+         font-size: 55px
+         font-style: normal
+         font-weight: 900
+         margin: 0
+         &__gradient
+            background: linear-gradient(90deg, #8A35F2 0%, #BC4BDF 70.47%)
+            background-clip: text
+            -webkit-background-clip: text
+            -webkit-text-fill-color: transparent
+            font-family: FONTSPRING DEMO - Visby CF Heavy
+            font-size: 55px
+            font-style: normal
+            font-weight: 900
+            line-height: 78px
+            margin: 0
+            margin-bottom: 20px
+      &-text
+         color: $dark-purple
+         font-family: Poppins
+         font-size: 16px
+         font-style: normal
+         font-weight: 400
+         line-height: normal
+         margin: 0px
+         margin-bottom: 35px
+      &-buttons
+         color: $light
+         font-size: 18px
+         font-style: normal
+         font-weight: 800
+         line-height: normal
+         border-radius: 28px
+         padding: 14px 30px
+         border: none
+         background: $gradient-purple
+         cursor: pointer
+         margin: 0
+         margin-right: 20px
+         &__transparent
+            position: relative
+            padding: 14px 30px 14px 50px
+            background: var(--Linear, linear-gradient(90deg, #8A35F2 0%, #BC4BDF 100%))
+            background-clip: text
+            -webkit-background-clip: text
+            -webkit-text-fill-color: transparent
+            border: 2px solid var(--Linear, #8A35F2)
+            &::before
+               content: ''
+               background: url(../img/play-icon.svg)
+               position: absolute
+               width: 100%
+               height: 100%
+               background-repeat: no-repeat
+               top: 20px
+               left: 25px
+      &-users
+         display: flex
+         justify-content: start
+         align-items: center
+         position: relative
+         margin-top: 58px
+         &__texts
+            margin-left: 135px
+            display: flex
+            justify-content: start
+            flex-direction: column
+         &__text
+            color: $dark-purple
+            font-size: 16px
+            font-style: normal
+            font-weight: 400
+            line-height: normal
+            &__gradient
+               font-size: 20px
+               font-style: normal
+               font-weight: 900
+               line-height: normal
+               letter-spacing: 0.6px
+               text-transform: uppercase
+               background: var(--Linear, linear-gradient(90deg, #8A35F2 0%, #BC4BDF 100%))
+               background-clip: text
+               -webkit-background-clip: text
+               -webkit-text-fill-color: transparent
+      &-user
+         width: 60px
+         height: 60px
+         border-radius: 50%
+         overflow: hidden
+         position: absolute
+         &-avatar
+            height: 100%
+            width: 100%
+            object-fit: cover
+         &__two
+            position: absolute
+            z-index: -1
+            left: 35px
+         &__three
+            position: absolute
+            z-index: -2
+            left: 65px
+   &__right
+      width: 50%
+      position: relative
+      &-img
+         width: 450px
+         height: 550px
+         position: absolute
+         top: -132px
+         left: 0
+         border-radius: 30px
+         overflow: hidden
+         img
+            width: 100%
+            height: 100%
+            object-fit: cover
+         &__two
+            z-index: -2
+            transform: rotate(20deg) translateX(116px) translateY(56px)
+         &__three
+            z-index: -3
+            transform: rotate(40deg) translateX(220px) translateY(65px)
+      &-seal
+         position: absolute
+         z-index: 4
+         bottom: 80px
+         left: -45px
