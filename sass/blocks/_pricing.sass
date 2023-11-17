@@ -1,0 +1,181 @@
+.price
+   position: relative
+   padding: 150px 0
+   &::after
+      content: ''
+      position: absolute
+      width: 100%
+      height: 100%
+      top: 0
+      right: 0
+      left: 0
+      bottom: 0
+      opacity: 0.1
+      background: var(--Linear, linear-gradient(90deg, #8A35F2 0%, #BC4BDF 100%))
+      z-index: -2
+   &-wrapper
+      display: flex
+   &-content
+      max-width: 400px
+      margin-right: 60px
+      &__subtitle
+         font-size: 22px
+         font-style: normal
+         font-weight: 700
+         line-height: normal
+         background: $gradient-purple
+         background-clip: text
+         -webkit-background-clip: text
+         -webkit-text-fill-color: transparent
+      &__title
+         margin: 0
+         color: $dark-purple
+         font-size: 39px
+         font-style: normal
+         font-weight: 900
+         line-height: 62px /* 119.231% */
+         &--gradient
+            background: $gradient-purple
+            background-clip: text
+            -webkit-background-clip: text
+            -webkit-text-fill-color: transparent
+            font-size: 50px
+            font-style: normal
+            font-weight: 900
+            line-height: 62px
+      &-description
+         margin: 0
+         margin-bottom: 25px
+         color: #170033
+         font-family: Poppins
+         font-size: 16px
+         font-style: normal
+         font-weight: 400
+         line-height: normal
+      &-item
+         display: flex
+         align-items: start
+         margin-bottom: 25px
+         &__icon
+            margin-top: 6px
+            margin-right: 12px
+         &__text
+            color: $dark-purple
+            font-size: 28px
+            font-style: normal
+            font-weight: 900
+            line-height: 35px /* 125% */
+            &--gradient
+               background: $gradient-purple
+               background-clip: text
+               -webkit-background-clip: text
+               -webkit-text-fill-color: transparent
+               font-size: 28px
+               font-style: normal
+               font-weight: 900
+               line-height: 35px
+            &--description
+               margin: 0
+               color: #170033
+               font-family: Poppins
+               font-size: 16px
+               font-style: normal
+               font-weight: 400
+               line-height: normal
+   &-card
+      display: flex
+      justify-content: space-between
+      flex-direction: column
+      margin-right: 30px
+      padding: 45px 51px
+      position: relative
+      &::after
+         content: ''
+         position: absolute
+         top: 0
+         bottom: 0
+         right: 0
+         left: 0
+         width: 100%
+         height: 100%
+         border-radius: 30px
+         background: #FFF
+         box-shadow: 0px 0px 40px 0px rgba(23, 0, 51, 0.03)
+         z-index: -1
+      &__recomendet
+         &::before
+            content: ''
+            position: absolute
+            top: 0
+            right: 0
+            width: 120px
+            height: 120px
+            background-image: url(/img/price-tag.svg)
+      &__wrapper
+         display: flex
+      &__title
+         color: #000
+         font-size: 28px
+         font-style: normal
+         font-weight: 500
+         line-height: normal
+      &__pricetag
+         font-size: 48px
+         font-style: normal
+         font-weight: 900
+         line-height: 58px /* 120.833% */
+         background: $gradient-purple
+         background-clip: text
+         -webkit-background-clip: text
+         -webkit-text-fill-color: transparent
+      &__desc
+         display: flex
+         flex-direction: column
+         margin-bottom: 35px
+      &__description
+         display: flex
+         align-items: start
+         color: $dark-purple
+         font-family: Poppins
+         font-size: 13px
+         font-style: normal
+         font-weight: 400
+         line-height: 23px /* 143.75% */
+         padding-bottom: 15px
+         &::after
+            content: ''
+            background-image: url(./img/price-card-icon.svg)
+            width: 15px
+            height: 15px
+         &-icon
+            margin-right: 10px
+      &__line
+         display: block
+         background: #170033
+         width: 350px
+         height: 0.5px
+         margin-bottom: 20px
+      &__buttons
+         border: none
+         border-radius: 28px
+         padding: 14px 100px
+         color: #FFF
+         font-size: 20px
+         font-style: normal
+         font-weight: 800
+         line-height: normal
+         position: relative
+         z-index: 1
+         cursor: pointer
+         &::after
+            content: ''
+            position: absolute
+            top: 0
+            right: 0
+            left: 0
+            bottom: 0
+            width: 100%
+            height: 100%
+            border-radius: 28px
+            background: var(--Linear, linear-gradient(90deg, #8A35F2 0%, #BC4BDF 100%))
+            z-index: -1
