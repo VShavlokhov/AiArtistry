@@ -1212,4 +1212,203 @@ body {
   border-radius: 28px;
   background: var(--Linear, linear-gradient(90deg, #8A35F2 0%, #BC4BDF 100%));
   z-index: -1;
+}
+
+.alimages {
+  padding: 120px 0;
+}
+.alimages-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 60px;
+}
+.alimages-top__subtitle {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  background: var(--Linear, linear-gradient(90deg, #8A35F2 0%, #BC4BDF 100%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.alimages-top__title {
+  margin: 0;
+  color: #170033;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 900;
+}
+.alimages-top__title--gradient {
+  background: var(--Linear, linear-gradient(90deg, #8A35F2 0%, #BC4BDF 100%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 900;
+}
+.alimages-top__description {
+  max-width: 464px;
+  padding-top: 35px;
+  color: #170033;
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.alimages-top__buttons {
+  display: flex;
+}
+.alimages-top__button {
+  display: flex;
+  margin-left: 15px;
+  padding: 18px 15px;
+  border: none;
+  border-radius: 10px;
+  background: var(--Linear, linear-gradient(90deg, #8A35F2 0%, #BC4BDF 100%));
+  cursor: pointer;
+}
+.alimages-card {
+  position: relative;
+  width: 430px;
+  height: 530px;
+  overflow: hidden;
+  border-radius: 30px;
+}
+.alimages-card__img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  object-fit: cover;
+  z-index: -2;
+}
+.alimages-card__text {
+  margin: 0;
+  color: white;
+  position: absolute;
+  bottom: 30px;
+  left: 35px;
+}
+
+.test {
+  padding: 90px 0 140px;
+}
+.test-wrapper {
+  position: relative;
+  padding: 50px;
+  display: flex;
+}
+.test-image {
+  display: flex;
+}
+.test-avatar {
+  max-width: 640px;
+  height: 730px;
+  margin-right: 37px;
+  overflow: hidden;
+  border-radius: 30px;
+}
+.test-avatar__img {
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.test-bg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 150px;
+  height: 730px;
+  border-radius: 30px;
+  border: 10px solid var(--Linear, #8A35F2);
+  z-index: -1;
+}
+.test-content {
+  width: 600px;
+  padding: 60px 0px;
+}
+.test-content__subtitle {
+  margin-bottom: 10px;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  background: var(--Linear, linear-gradient(90deg, #8A35F2 0%, #BC4BDF 100%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.test-content__title {
+  margin: 0;
+  color: #170033;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 62px;
+}
+.test-content__title--gradient {
+  margin: 0;
+  margin-bottom: 45px;
+  background: var(--Linear, linear-gradient(90deg, #8A35F2 0%, #BC4BDF 100%));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 62px;
+}
+.test-content__icon {
+  margin-bottom: 30px;
+}
+.test-content__text {
+  margin: 0;
+  margin-bottom: 30px;
+  color: #170033;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.test-content__username {
+  margin: 0;
+  display: inline-block;
+  color: var(--170033, #170033);
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+.test-content__username--gradient {
+  display: inline-block;
+  margin: 0;
+  margin-bottom: 12px;
+  background: var(--Linear, linear-gradient(90deg, #8A35F2 0%, #BC4BDF 100%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+.test-content__star {
+  margin-bottom: 30px;
+}
+.test__button {
+  border: none;
+  border-radius: 10px;
+  background: var(--Linear, linear-gradient(90deg, #8A35F2 0%, #BC4BDF 100%));
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+.test__button__prev {
+  margin-right: 15px;
 }/*# sourceMappingURL=style.css.map */
