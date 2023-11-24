@@ -1,0 +1,183 @@
+.footer
+   position: relative
+   padding-top: 80px
+   &::before
+      content: ''
+      position: absolute
+      width: 100%
+      height: 100%
+      top: 0
+      left: 0
+      bottom: 0
+      right: 0
+      background-color: $dark-purple
+      z-index: -2
+   &-wrapper
+      display: flex
+      margin-bottom: 80px
+   &-main
+      max-width: 352px
+      margin-right: 87px
+      &__logo
+         margin-bottom: 20px
+      &__description
+         margin: 0
+         margin-bottom: 30px
+         color: #FFF
+         font-size: 16px
+         font-style: normal
+         font-weight: 400
+         line-height: normal
+      &__social
+         padding-right: 15px
+   &-links
+      max-width: 146px
+      margin-right: 72px
+      &__title
+         display: inline-block
+         margin: 0
+         color: #FFF
+         font-size: 24px
+         font-style: normal
+         font-weight: 900
+         line-height: normal
+         &--gradient
+            display: inline-block
+            margin: 0
+            background: $gradient-purple
+            background-clip: text
+            -webkit-background-clip: text
+            -webkit-text-fill-color: transparent
+            font-size: 24px
+            font-style: normal
+            font-weight: 900
+            line-height: normal
+      &__nav
+         list-style: none
+         padding: 0
+      &__list
+         margin-bottom: 12px
+      &__link
+         text-decoration: none
+         color: #FFF
+         font-family: Poppins
+         font-size: 16px
+         font-style: normal
+         font-weight: 400
+         line-height: normal
+   &-images
+      max-width: 260px
+      margin-right: 87px
+
+      &__title
+         display: inline-block
+         margin: 0
+         color: #FFF
+         font-size: 24px
+         font-style: normal
+         font-weight: 900
+         line-height: normal
+         &--gradient
+            margin: 0
+            margin-bottom: 37px
+            display: inline-block
+            background: $gradient-purple
+            background-clip: text
+            -webkit-background-clip: text
+            -webkit-text-fill-color: transparent
+            font-size: 24px
+            font-style: normal
+            font-weight: 900
+            line-height: normal
+      &__wrapper
+         display: flex
+         justify-content: space-between
+         flex-wrap: wrap
+         align-items: center
+
+      &__image
+         max-width: 80px
+         height: 80px
+         margin-bottom: 10px
+         overflow: hidden
+         border-radius: 15px
+      &__img
+         width: 100%
+         height: 100%
+         object-fit: cover
+   &-newsletter
+      max-width: 346px
+      &__title
+         display: inline-block
+         margin: 0
+         color: #FFF
+         font-size: 24px
+         font-style: normal
+         font-weight: 900
+         line-height: normal
+         &--gradient
+            display: inline-block
+            margin: 0
+            margin-bottom: 40px
+            background: $gradient-purple
+            background-clip: text
+            -webkit-background-clip: text
+            -webkit-text-fill-color: transparent
+            font-size: 24px
+            font-style: normal
+            font-weight: 900
+            line-height: normal
+      &__description
+         color: #FFF
+         font-size: 16px
+         font-style: normal
+         font-weight: 400
+         line-height: normal
+   &-form
+      position: relative
+      display: flex
+      justify-content: space-between
+      align-items: center
+      padding: 0 0 0 20px
+      &::before
+         content: ''
+         position: absolute
+         opacity: 0.1
+         background: var(--Linear, linear-gradient(90deg, #8A35F2 0%, #BC4BDF 100%))
+         top: 0
+         right: 0
+         left: 0
+         bottom: 0
+         width: 100%
+         height: 100%
+         border-radius: 28px
+         z-index: -2
+      &__input
+         border: none
+         outline: none
+         background: transparent
+         color: #FFF
+         font-size: 14px
+         font-style: normal
+         font-weight: 300
+         line-height: normal
+      &__button
+         padding: 15px 30px
+         border-radius: 28px
+         border: none
+         color: #FFF
+         font-size: 18px
+         font-style: normal
+         font-weight: 800
+         line-height: normal
+         cursor: pointer
+         background: var(--Linear, linear-gradient(90deg, #8A35F2 0%, #BC4BDF 100%))
+   &-line
+      width: 1350px
+      height: 0.5px
+      background: #ffff
+      margin-bottom: 15px
+   &-rights
+      color: #fff
+      text-align: center
+
